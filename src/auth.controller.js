@@ -1,7 +1,7 @@
 class authcontroller{
     register=(req,res,next)=>{
         try {
-
+            res.send("Hello response")
         }catch(error){
             next(error)
         }
@@ -9,12 +9,14 @@ class authcontroller{
     login=(req,res,next)=>{
         try {
 
+
         }catch(error){
             next(error)
         }
     }
     logout=(req,res,next)=>{
         try {
+            res.send("i am logout")
 
         }catch(error){
             next(error)
